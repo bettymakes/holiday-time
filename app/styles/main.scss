@@ -2,7 +2,13 @@
   folio
 ******************************************************************************/
 
-
+// Vendors
 @import 'bourbon/dist/bourbon';
 @import 'neat/app/assets/stylesheets/neat';
 @import 'vendors/normalize';
+
+// Variables
+@import 'variables/typography';
+
+// Base
+@import 'base/scaffolding';
