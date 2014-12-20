@@ -13,3 +13,7 @@ $font-size-h3: 1.999rem;
 $font-size-h4: 1.414rem;
 $font-size-h5: 1rem;
 $font-size-h6: 0.707rem;
+
+// Line-height
+$line-height-base: 1.414;
+$line-height-px: ceil($font-size-base*$line-height-base);
