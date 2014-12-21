@@ -1,0 +1,40 @@
+// Modules :: Framebox
+
+.framebox-top, .framebox-bottom,
+.framebox-left, .framebox-right {
+  background-color: $color-primary;
+  position: fixed;
+  z-index: $z-index-framebox;
+}
+
+.framebox-top, .framebox-bottom {
+  left: 0;
+  right: 0;
+  height: $gutter;
+}
+
+.framebox-left, .framebox-right {
+  top: 0;
+  bottom: 0;
+  width: $gutter;
+}
+
+.framebox-top {
+  top: 0;
+}
+
+.framebox-bottom {
+  bottom: 0;
+}
+
+.framebox-left {
+  left: 0;
+}
+
+.framebox-right {
+  right: 0;
+}
+
+.framebox-content {
+  padding: $gutter;
+}
