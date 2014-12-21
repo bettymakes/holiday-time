@@ -5,3 +5,8 @@ html {
   font-family: $font-family-sans-serif;
   line-height: $line-height-base;
 }
+
+html, body {
+  height: 100%;
+  width: 100%;
+}

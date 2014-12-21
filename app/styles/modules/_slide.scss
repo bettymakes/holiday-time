@@ -1,0 +1,11 @@
+// Modules :: Slide
+.slide {
+  padding: $gutter;
+  background-color: $color-primary;
+  height: 100%;
+  width: 100%;
+}
+
+.slide-light {
+  background-color: $color-white;
+}
