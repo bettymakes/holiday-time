@@ -1,0 +1,17 @@
+// Modules :: Logo
+
+.logo {
+  width: 200px;
+}
+
+@include breakpoint-tablet() {
+  .logo {
+    width: 325px;
+  }
+}
+
+@include breakpoint-desktop() {
+  .logo {
+    width: 500px;
+  }
+}

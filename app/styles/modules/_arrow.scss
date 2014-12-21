@@ -1,0 +1,13 @@
+// Modules :: Arrow
+
+.arrow-down {
+  @include triangle(40px, $color-primary, down);
+}
+
+.arrow-scroll-down {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: $gutter-triple;
+  left: 50%;
+  @include transform(translateX(-50%));
+}
