@@ -17,4 +17,5 @@ $font-size-h6: 0.707rem;
 // Line-height
 $line-height-base: 1.5;
 $line-height-px: ceil($font-size-base*$line-height-base);
+$line-height-px-half: ceil($line-height-px/2);
 $line-height-header: $line-height-base*0.8;
