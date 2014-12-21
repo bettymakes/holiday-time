@@ -1,17 +1,17 @@
 // Modules :: Logo
 
 .logo {
-  width: 200px;
+  width: $logo-size-phone;
 }
 
 @include breakpoint-tablet() {
   .logo {
-    width: 325px;
+    width: $logo-size-tablet;
   }
 }
 
 @include breakpoint-desktop() {
   .logo {
-    width: 500px;
+    width: $logo-size-desktop;
   }
 }
