@@ -9,9 +9,13 @@
 
 // Variables
 @import 'variables/colours';
+@import 'variables/grids';
 @import 'variables/keyline';
 @import 'variables/typography';
 @import 'variables/z-depth';
+
+// Mixins
+@import 'mixins/breakpoints';
 
 // Base
 @import 'base/scaffolding';

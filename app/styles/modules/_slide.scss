@@ -1,11 +1,33 @@
 // Modules :: Slide
 .slide {
+  @include display(flex);
+  @include align-items(center);
+  @include justify-content(center);
   padding: $gutter;
   background-color: $color-primary;
   height: 100%;
   width: 100%;
+
 }
 
 .slide-light {
   background-color: $color-white;
+}
+
+
+.slide-title {
+  font-size: $font-size-h3;
+  text-align: center;
+}
+
+@include breakpoint-tablet() {
+  .slide-title {
+    font-size: $font-size-h2;
+  }
+}
+
+@include breakpoint-desktop() {
+  .slide-title {
+    font-size: $font-size-h1;
+  }
 }
