@@ -5,7 +5,7 @@
   @include justify-content(center);
   padding: $gutter;
   background-color: $color-primary;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   position: relative;
 }
