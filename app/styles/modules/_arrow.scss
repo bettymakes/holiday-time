@@ -11,3 +11,30 @@
   left: 50%;
   @include transform(translateX(-50%));
 }
+.arrow-down-circle {
+  width: 4rem;
+  height: 4rem;
+  border: 0.5rem solid #333;
+  border-radius: 50%;
+  text-align:center;
+}
+
+.arrow-down-circle:after {
+  content: '';
+  display: inline-block;
+  margin-top: 0.6rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-top: 0.5rem solid #333;
+  border-right: 0.5rem solid #333;
+  @include transform(rotate(135deg));
+}
+
+.arrow-down-circle:hover {
+  border-color: red;
+  cursor: pointer;
+}
+
+.arrow-down-circle:hover:after {
+  border-color: red;
+}
