@@ -1,0 +1,11 @@
+@include breakpoint-tablet() {
+  .message p {
+    font-size: $font-size-h4;
+  }
+}
+
+// @include breakpoint-desktop() {
+//   .message p {
+//     font-size: $font-size-h3;
+//   }
+// }

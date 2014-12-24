@@ -1,17 +1,7 @@
 // Modules :: Logo
 
 .logo {
-  width: $logo-size-phone;
-}
-
-@include breakpoint-tablet() {
-  .logo {
-    width: $logo-size-tablet;
-  }
-}
-
-@include breakpoint-desktop() {
-  .logo {
-    width: $logo-size-desktop;
-  }
+  padding: $gutter;
+  max-width: $logo-size-desktop;
+  width: 100%;
 }

@@ -7,14 +7,28 @@
 .arrow-scroll-down {
   position: absolute;
   bottom: 0;
-  margin-bottom: $gutter-triple;
+  margin-bottom: $gutter;
   left: 50%;
-  @include transform(translateX(-50%));
+  @include transform(translateX(-50%) scale(0.5));
 }
+
+@include breakpoint-tablet() {
+  .arrow-scroll-down {
+    @include transform(translateX(-50%) scale(0.7));
+    margin-bottom: $gutter-double;
+  }
+}
+
+@include breakpoint-desktop() {
+  .arrow-scroll-down {
+    @include transform(translateX(-50%) scale(1));
+  }
+}
+
 .arrow-down-circle {
   width: 4rem;
   height: 4rem;
-  border: 0.5rem solid #333;
+  border: 0.5rem solid $color-blue;
   border-radius: 50%;
   text-align:center;
 }
@@ -25,16 +39,16 @@
   margin-top: 0.6rem;
   width: 1.4rem;
   height: 1.4rem;
-  border-top: 0.5rem solid #333;
-  border-right: 0.5rem solid #333;
+  border-top: 0.5rem solid $color-blue;
+  border-right: 0.5rem solid $color-blue;
   @include transform(rotate(135deg));
 }
 
 .arrow-down-circle:hover {
-  border-color: red;
+  border-color: $color-red;
   cursor: pointer;
 }
 
 .arrow-down-circle:hover:after {
-  border-color: red;
+  border-color: $color-red;
 }

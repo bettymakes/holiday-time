@@ -27,10 +27,12 @@
 @import 'layouts/grid';
 
 // Modules
+@import 'modules/arrow';
 @import 'modules/framebox';
 @import 'modules/logo';
+@import 'modules/message';
 @import 'modules/slide';
-@import 'modules/arrow';
+
 
 // Helpers
 @import 'helpers/visibility';
