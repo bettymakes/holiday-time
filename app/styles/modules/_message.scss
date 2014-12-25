@@ -14,9 +14,13 @@
   span {
     display: block;
   }
+  a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: $color-mid-grey;
+  }
+  a:hover {
+    color: $color-blue;
+  }
 }
-// @include breakpoint-desktop() {
-//   .message p {
-//     font-size: $font-size-h3;
-//   }
-// }
