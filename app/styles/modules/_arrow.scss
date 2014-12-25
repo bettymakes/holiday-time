@@ -28,7 +28,7 @@
 .arrow-down-circle {
   width: 4rem;
   height: 4rem;
-  border: 0.5rem solid $color-blue;
+  border: 0.5rem solid $color-light-grey;
   border-radius: 50%;
   text-align:center;
 }
@@ -39,16 +39,15 @@
   margin-top: 0.6rem;
   width: 1.4rem;
   height: 1.4rem;
-  border-top: 0.5rem solid $color-blue;
-  border-right: 0.5rem solid $color-blue;
+  border-top: 0.5rem solid $color-light-grey;
+  border-right: 0.5rem solid $color-light-grey;
   @include transform(rotate(135deg));
 }
 
-.arrow-down-circle:hover {
+.arrow-down-circle:hover, .arrow-down-circle:hover:after {
   border-color: $color-red;
-  cursor: pointer;
 }
 
-.arrow-down-circle:hover:after {
-  border-color: $color-red;
+.arrow-down-circle:hover {
+  cursor: pointer;
 }

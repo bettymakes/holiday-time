@@ -1,9 +1,20 @@
 @include breakpoint-tablet() {
-  .message p {
+  .message p,
+  .message-footer {
     font-size: $font-size-h4;
   }
 }
 
+.message-header {
+  font-weight: 700;
+}
+
+.message-footer {
+  float: right;
+  span {
+    display: block;
+  }
+}
 // @include breakpoint-desktop() {
 //   .message p {
 //     font-size: $font-size-h3;
