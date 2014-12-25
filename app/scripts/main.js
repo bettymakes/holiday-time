@@ -1,6 +1,4 @@
 'use strict';
-console.log("fired");
-
 (function($) {
   $(document).ready(function() {
     // Add your jQuery code here
